@@ -4,7 +4,7 @@
   align-items: center;
   font-size: 20px;
   font-weight: 700;
-  color: blueviolet;
+  color: black;
 }
 .label:not(:last-child) {
   margin-bottom: 15px;
@@ -14,18 +14,18 @@
   width: 300px;
   height: 25px;
   font-size: 20px;
-  border: 2px solid rgba(137, 43, 226, 0.43);
+  border: 2px solid black;
 }
 .input2 {
   margin-left: 15px;
   width: 300px;
   height: 25px;
   font-size: 20px;
-  border: 2px solid rgba(137, 43, 226, 0.43);
+  border: 2px solid black;
 }
 .input1:focus,
 .input2:focus {
-  border: 2px dashed rgba(120, 38, 198, 0.835);
+  border: 2px dashed blue;
   outline: none;
 }
 .button {
@@ -34,14 +34,14 @@
   padding: 1px 5px;
   font-size: 20px;
   font-weight: 700;
-  background-color: rgba(146, 146, 227, 0.588);
-  border: 2px solid rgba(69, 69, 112, 0.588);
+  background-color: #f1f1f1;
+  border: 2px solid black;
   border-radius: 10px;
 }
 .button:hover {
   color: white;
-  background-color: rgba(139, 73, 176, 0.684);
-  border: 2px solid rgba(62, 21, 67, 0.817);
+  background-color: blue;
+  border: 2px solid black;
   transform: scale(1.1);
   cursor: pointer;
 }
